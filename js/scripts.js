@@ -11,4 +11,11 @@ function lastFirst(capLetters) {
   return reversedLetters;
 }
 
-window.alert(lastFirst(firstLast(userInput)));
+//window.alert(lastFirst(firstLast(userInput)));
+
+function printResults() {
+  return lastFirst(firstLast(userInput));
+}
+
+
+window.alert(printResults());
